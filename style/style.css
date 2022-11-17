@@ -1,0 +1,98 @@
+#navbar {
+  background-color: #fbe192;
+}
+
+#contents-2 {
+  background-color: yellowgreen;
+}
+#contents-3 {
+  background-color: orange;
+}
+#contents-4 {
+  background-color: olive;
+}
+#contents-5 {
+  background-color: rebeccapurple;
+}
+#contents-6 {
+  background-color: blue;
+}
+#article-1 {
+  background-color: cyan;
+}
+#article-2 {
+  background-color: olivedrab;
+}
+#article-1-image {
+  background-color: brown;
+}
+#article-2-image {
+  background-color: blueviolet;
+}
+.btn {
+  border-radius: 8px;
+  text-decoration-color: #ffffff;
+}
+#contents {
+  padding: 2em;
+}
+#contents-1 {
+  margin: 1em 0;
+  padding: 1em;
+}
+#contents-1-number {
+  color: gray;
+  opacity: 0.25;
+}
+#contents-1-content {
+  padding-top: 0.5em;
+}
+#contents-1-content-title {
+  font-size: 1.2em;
+}
+#article {
+  background-color: #f7f9fa;
+  padding: 1em 2em;
+}
+#discover-and-footer {
+  padding: 1em 2em;
+}
+#discover-and-footer-topic-badge {
+  margin: 0.5em 0px;
+}
+#discover-and-footer-title-subscibtion {
+  margin-top: 0.5em;
+}
+
+/* layout mobile */
+@media screen and (max-width: 1400px) {
+  #carousel-right {
+    display: none;
+  }
+  #carousel {
+    padding: 2em 1em;
+  }
+  #carousel-left-caption {
+    padding: 0 1em;
+  }
+  #carousel-left-button {
+    margin: 1em 0;
+  }
+}
+
+/* layout website */
+@media screen and (min-width: 1400px) {
+  #carousel-left-button {
+    margin: 1em 0;
+    width: 20%;
+  }
+  #carousel {
+    margin: 2em 0;
+  }
+  #wave {
+    margin-top: -300px;
+  }
+  #contents-1 {
+    padding: 1em;
+  }
+}
