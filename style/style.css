@@ -1,38 +1,13 @@
-#navbar {
+.navbar {
   background-color: #fbe192;
 }
+#coursel {
+  background-color: #fbe192;
+}
+section {
+  padding-top: 2rem;
+}
 
-#contents-2 {
-  background-color: yellowgreen;
-}
-#contents-3 {
-  background-color: orange;
-}
-#contents-4 {
-  background-color: olive;
-}
-#contents-5 {
-  background-color: rebeccapurple;
-}
-#contents-6 {
-  background-color: blue;
-}
-#article-1 {
-  background-color: cyan;
-}
-#article-2 {
-  background-color: olivedrab;
-}
-#article-1-image {
-  background-color: brown;
-}
-#article-2-image {
-  background-color: blueviolet;
-}
-.btn {
-  border-radius: 8px;
-  text-decoration-color: #ffffff;
-}
 #contents {
   padding: 2em;
 }
